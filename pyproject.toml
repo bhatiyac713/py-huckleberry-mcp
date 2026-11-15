@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "fastmcp>=2.0.0,<3.0.0",
-    "huckleberry-api>=0.1.0",
+    "huckleberry-api>=0.1.18,<0.2",  # 0.2 is an async rewrite (needs an aiohttp websession)
     "python-dotenv>=1.0.0",
 ]
 
